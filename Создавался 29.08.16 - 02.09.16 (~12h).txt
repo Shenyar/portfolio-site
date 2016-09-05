@@ -1,0 +1,2 @@
+Без учета проектов в папках
+(urlaubsgluck, massaindex, kitchen, ishop, insta-collage)
