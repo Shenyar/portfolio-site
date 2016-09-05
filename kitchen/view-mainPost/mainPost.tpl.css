@@ -1,0 +1,49 @@
+/*---------------------------------------- MAIN ----------------------------------------*/
+.fix-row {
+    margin-left: 0;
+}
+.fix-col {
+    padding: 15px 15px 15px 0;
+}
+.padding25 {
+    padding: 25px;
+    background-color: #FFF;
+    border: solid 1px #CCCCCC;
+}
+
+/*-------------- POST -----------------*/
+.divider {
+    height: 2px;
+    border-bottom: dotted 2px #C4C4C4;
+    margin: 15px 0;
+}
+.margin-top {
+    margin-top: 15px;
+}
+.fix-link {
+    color: inherit;
+}
+.font-header {
+    font-size: 1.7em;
+    color: #333333;
+}
+.font-content {
+    font-size: 1.4em;
+}
+.font-info {
+    font-size: 1.1em;
+    color: #C4C4C4;
+}
+.post-header {
+    font-size: 2.5em;
+}
+.post-img {
+    margin: 15px 0;
+}
+.comment-img {
+    padding: 0 25px 0 0;
+}
+.comment-name {
+    font-size: 1.5em;
+    color: #333333;
+}

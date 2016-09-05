@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "header": "SUMMARY",
+    "text": {
+      "p1": "I love my work and I get a lot of fun in developing programs. Especially indescribable feeling I feel when I see the results of my labors.",
+      "p2": "I have an experience in developing from discussing technical specifications with the customer to implementation of the finished software into production. 3 years experience with RAD Studio XE5 (C++).",
+      "p3": "At the moment I deepen and Improve skills in C++, SQL, HTML5 / CSS3 and PHP. And in the future my goal - to become a Senior Software Engineer, and continue to grow as a professional."
+    }
+  },
+  "skills": {
+    "header": "SKILLS",
+    "text": {
+      "languages": "Languages and Technologies",
+      "php": "Project Patterns: Singleton, Strategy",
+      "sql": "MySQL, Database creation and construction of complex queries",
+      "cpp": "Developing program in C++Builder, RAD XE5; a lot of experience in table interface development",
+      "experience": "Experience in the full cycle of software development.",
+      "other": "Other",
+      "photoshop": "Advanced User",
+      "lang_hdr": "Languages",
+      "lang_txt": "Ukrainian (Native), Russian (Native), English (Intermediate)."
+    }
+  },
+  "employment": {
+    "header": "EMPLOYMENT",
+    "text": {
+      "place": "Software Engineer - «Motor-Sich» ( june 2013 - sept 2016 )",
+      "info1": "Implemented system for automatic counting time to create details and control what operations are performed on them, which allowed to reduce the time of manufacturing products and find some problem areas;",
+      "info2": "Development of programs for the expansion and upgrade of existing services for data processing and report generation for management, which increased the efficiency of decision-making about 40%;",
+      "info3": "BugFixing in other projects."
+    }
+  },
+  "education": {
+    "header": "EDUCATION",
+    "text": {
+      "place": "Zaporizhya National Technical University : 2008 – 2013",
+      "info1": "M.S.E. in Computer and Information Science, May 2013.  GPA: 4.0",
+      "info2": "B.S.E. in Computer Science Engineering, May 2012.  GPA: 3.8",
+      "info3": "Graduate Coursework: Computer Architecture; Algorithms; Software Development; Artificial Intelligence; Algorithms of Optimization; Computational Theory; Data Bases."
+    }
+  }
+}

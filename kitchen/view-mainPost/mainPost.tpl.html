@@ -1,0 +1,103 @@
+<!-- MAIN -->
+<link href="view-mainPost/mainPost.tpl.css" rel="stylesheet">
+<div class="main" ng-controller="mainPostCtrl">
+    <div class="container">
+        <div class="row fix-row">
+            <!-- POST -->
+            <div class="col-sm-9 fix-col">
+                <div class="padding25">
+                    <div class="font-header post-header">{{apiData.selectedPost.header}}</div>
+                    <div class="divider"></div>
+                    <div class="font-info clearfix">
+                        <div class="pull-left">
+                            {{apiData.selectedPost.create_date}} |
+                            {{apiData.selectedPost.category}} |
+                            {{apiData.selectedPost.comments.length}} Comments
+                        </div>
+                        <div class="pull-right">Likes: {{apiData.selectedPost.likes}}</div>
+                    </div>
+                    <div class="divider"></div>
+                    <img class="post-img" ng-src="{{apiData.selectedPost.img}}" width="100%">
+                    <div class="divider"></div>
+                    <div class="font-content" ng-bind-html="apiData.selectedPost.content"></div>
+                    <div class="font-content" ng-bind-html="apiData.selectedPost.post_content"></div>
+                    <div class="divider"></div>
+                    <div class="post-comments">
+                        <div class="font-header">
+                            {{apiData.selectedPost.comments.length}}
+                            Responses to "{{apiData.selectedPost.header}}"
+                        </div>
+                        <div class="margin-top clearfix" ng-repeat="comment in apiData.selectedPost.comments">
+                            <div class="col-xs-2 comment-img">
+                                <img width="100%" ng-src="img/main-item{{comment.imgNum}}.jpg">
+                            </div>
+                            <div class="col-xs-10 padding25">
+                                <div class="comment-name">{{comment.name}}</div>
+                                <div class="margin-top font-content">{{comment.content}}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="margin-top font-header">Submit a Comment</div>
+                    <div class="margin-top font-content">Your email address will not be published. Required fields are marked *</div>
+                    <form class="form-horizontal clearfix" novalidate>
+                        <div id="commentName">
+                            <input class="margin-top form-control" type="text"
+                               placeholder="Name *" ng-model="commentName">
+                        </div>
+                        <div  id="commentEmail">
+                            <input class="margin-top form-control" type="text"
+                                   placeholder="Email *" ng-model="commentEmail">
+                        </div>
+                        <div  id="commentContent">
+                            <textarea class="margin-top form-control" name="comment"
+                                  placeholder="Type comment here... *" rows="5" ng-model="commentContent"></textarea>
+                        </div>
+                        <div class="row fix-row">
+                            <div class="col-xs-4 col-sm-3 col-md-2 fix-col">
+                                <img width="100%" ng-src="img/main-item{{captchaId+1}}.jpg">
+                            </div>
+                            <div class="col-xs-8 col-sm-9 col-md-10 fix-col">
+                                <input class="margin-top form-control" type="text"
+                                       placeholder="{{captchaPlaceholder[captchaId-1]}}" ng-required ng-model="commentCaptcha">
+                            </div>
+                        </div>
+                        <button class="btn btn-success col-sm-3" type="submit" ng-click="submitComment($scope)">
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!-- NAVBAR -->
+            <div class="col-sm-3 fix-col">
+                <div class="padding25">
+                    <div class="font-header">Popular Posts</div>
+                    <div class="row fix-row" ng-repeat="item in apiData.popularPosts">
+                        <a class="fix-link" href="#/post/{{item.id}}">
+                            <div class="col-md-6 fix-col">
+                                <img ng-src="{{item.img}}" width="100%">
+                            </div>
+                            <div class="col-md-6 fix-col">
+                                <div class="font-content">{{item.header}}</div>
+                                <div class="font-info">{{item.create_date}}</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="font-header">A Little About Me</div>
+                    <div class="font-content">
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean lacinia bibendum nulla
+                        sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum.</p>
+                        <p>Sed posuere consectetur est at mant lobortis. Sed posuere consectetur est lobortis.
+                        Fusce  mauris condimentum.</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="font-header">Categories</div>
+                    <div class="font-content" ng-repeat="item in apiData.categories">
+                        <a href="#/{{item.name}}/1">{{item.name}}({{item.num_posts}})</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

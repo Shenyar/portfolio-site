@@ -1,0 +1,13 @@
+.main_goods {
+    margin-right: 0;
+}
+.hdr_menu_order, .accept_btn {
+    background: #DAEC99;
+    background: linear-gradient(to bottom, #DAE6AE, #CADC89);
+}
+.discard_btn {
+    border-color: #888888;
+}
+.goods_elem input, .main div:last-child {
+    text-align: center;
+}

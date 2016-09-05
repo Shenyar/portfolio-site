@@ -1,0 +1,2 @@
+HTML + CSS ( Адаптивная верстка, Perfect Pixel );
+JavaScript ( jQuery )

@@ -1,0 +1,65 @@
+/* --------- main ---------*/
+body {
+    font-size: x-large;
+    height: 100%;
+    background: url("background.gif") repeat-x fixed;
+    background-size: 100% 100%;
+}
+h1 {
+    font-size: 150%;
+    margin: 12px auto;
+}
+input {
+    background: #FEFCD2;
+    font-size: 100%;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-align: center;
+}
+input:focus {
+    outline: none;
+}
+table td {
+    padding: 7px 10px;
+}
+.center {
+    text-align: center;
+}
+
+/* --------- input-box ---------*/
+.input-box {
+    width: 500px;
+    height: 320px;
+    margin: 110px auto 0 auto;
+    border: solid 5px #FFB2A5;
+    border-radius: 15px;
+    background: url("b_input.gif") repeat-x;
+    transition: all 1s linear;
+    position: relative;
+    z-index: 10;
+}
+
+/* --------- output-box --------- */
+.output-box {
+    width: 450px;
+    height: 300px;
+    margin: -320px auto 0 auto;
+    overflow: hidden;
+    transition: all 1s linear;
+    position: relative;
+    border: solid 5px #FFB2A5;
+    border-radius: 15px;
+    background: url("b_input.gif") repeat-x;
+    background-size: 100% 100%;
+}
+.table-norm {
+    border-collapse: collapse;
+}
+.table-norm td, .table-norm th {
+    border: solid 1px lightgreen;
+}
+#result {
+    color: yellow;
+    font-weight: bold;
+    margin: 20px auto 10px auto;
+}

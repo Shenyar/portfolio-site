@@ -1,0 +1,55 @@
+<!-- MAIN -->
+<link href="lib/jquery-ui.min.css" rel="stylesheet">
+<link href="view-mainList/mainList.tpl.css" rel="stylesheet">
+<div class="main" ng-controller="mainListCtrl">
+    <div ng-class="{'main-loading': isLoading()}"></div>
+    <div class="container-fluid">
+        <!-- CONTROL BUTTONS -->
+        <div class="row">
+            <div class="main-categories pull-left">
+                <div class="main-categories_item main-categories_hdr">CATEGORIES</div>
+                <div class="main-categories_item"
+                     ng-repeat="item in postList.category">
+                        <a href="#/{{item.name}}/1"
+                           class="main-categories_item_link"
+                           ng-class="{'main-categories_selected': categoryIsSelected(item)}">
+                                {{item.name}}
+                        </a>
+                </div>
+            </div>
+            <div class="main-pagination pull-right">
+                <div class="main-pagination-item" ng-repeat="item in listPages">
+                    <a class="main-pagination-link"
+                       ng-class="{'main-pagination_selected': isSelectedPage(item)}"
+                       href="#/{{categoryName}}/{{item}}">
+                        {{item}}
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- MAIN CONTENT (POSTS) -->
+        <div class="row row-fix-offset">
+            <div class="col-md-3 col-sm-6 col-fix-offset phone-list-item" ng-repeat="elem in postList.post" >
+                <a href="#/post/{{elem.id}}" class="main-item-link">
+                    <div class="main-item">
+                        <img width="100%" ng-src={{elem.img}} alt="Image">
+                        <div class="main-item_body clearfix">
+                            <div class="main-item_header">{{elem.header}}</div>
+                            <div class="main-item_smallHdr">{{elem.category}}</div>
+                            <div class="main-item_description" ng-bind-html="elem.content"></div>
+                            <div class="main-item_smallText pull-left">Comments: {{elem.comments}}</div>
+                            <div class="main-item_smallText pull-right">{{elem.likes}} Likes</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- SLIDER -->
+        <div class="row" id="sliderWheel">
+            <div class="main-slider">
+                <div id="main-slider"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="lib/jquery-ui.min.js"></script>

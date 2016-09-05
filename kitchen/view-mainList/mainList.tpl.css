@@ -1,0 +1,120 @@
+/*---------------------------------------- MAIN ----------------------------------------*/
+
+/*-------------- categories -----------------*/
+.main-categories {
+    border: solid 1px #CCC;
+    background-color: #F8F8F8;
+    margin: 15px 0 0 15px;
+    padding-right: 20px;
+    font-size: 1.4em;
+}
+.main-categories_item {
+    padding: 10px 0 10px 20px;
+    display: inline-block;
+}
+.main-categories_item_link {
+    color: inherit;
+}
+.main-categories_hdr {
+    padding: 10px 20px;
+    background-color: #FFF;
+    border-right: solid 1px #CCC;
+    cursor: default;
+}
+.main-categories_selected {
+    color: #7DAE59;
+    cursor: default;
+}
+.main-categories_selected:hover {
+    color: #7DAE59;
+    text-decoration: none;
+}
+
+/*------------------- pagination -----------------*/
+.main-pagination {
+    border: solid 1px #CCC;
+    background-color: #F8F8F8;
+    margin: 15px 15px 0 0;
+    padding: 10px 20px 10px 0;
+}
+.main-pagination-item {
+    padding-left: 20px;
+    display: inline-block;
+}
+.main-pagination-link {
+    font-size: 1.4em;
+    color: #898989;
+    text-decoration: none;
+}
+.main-pagination_selected {
+    color: #7DAE59;
+    text-decoration: underline;
+}
+
+/*-------------------- list of items ----------------*/
+.row-fix-offset {
+    padding-right: 15px;
+}
+.col-fix-offset {
+    padding-right: 0;
+}
+.main-item-link {
+    color: inherit;
+    text-decoration: none;
+}
+.main-item-link:hover {
+    color: inherit;
+    text-decoration: none;
+}
+.main-item {
+    margin-top: 15px;
+    padding-right: 0;
+    border: solid 1px #CCC;
+    background-color: #FFF;
+}
+.main-item:hover {
+    opacity: 0.7;
+}
+.main-item_body {
+    padding: 15px 20px;
+}
+.main-item_header {
+    font-size: 1.8em;
+}
+.main-item_smallHdr {
+    color: #C4C4C4;
+    font-size: 1.1em;
+}
+.main-item_description {
+    font-size: 1.4em;
+    border-bottom: dotted 1px #C4C4C4;
+    padding: 15px 0;
+}
+.main-item_smallText {
+    padding-top: 15px;
+    color: #C4C4C4;
+    font-size: 1.1em;
+}
+
+/*------------------ slider ---------------*/
+.main-slider {
+    border: 1px solid #c5c5c5;
+    height: 2px;
+    margin: 25px 15px;
+    padding-right: 50px;
+}
+#main-slider {
+    border: none;
+    height: 0;
+}
+.ui-corner-all {
+    border-radius: 0;
+}
+.ui-slider-horizontal .ui-slider-handle {
+    top: -1em;
+    margin-left: 0;
+}
+.ui-slider .ui-slider-handle {
+    height: 2em;
+    width: 50px;
+}

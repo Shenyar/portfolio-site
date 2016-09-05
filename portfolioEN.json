@@ -1,0 +1,28 @@
+{
+  "description": {
+    "text": [
+      "One of my first applications allows you to calculate body mass index.",
+      "Example API Instagram used to create a collage based on your photos.",
+      "An example of the working culinary blog with the possibility of dividing posts in categories and page navigation.",
+      "Working online store, you can even make an order. But an order does not arrive, as reported by a pop-up notification.",
+      "Just creatied web site for a contest with responsive design without the use of additional libraries."
+    ],
+    "work_date": [
+      "From 11.05.16 to 12.05.16",
+      "From 05.07.16 to 18.07.16",
+      "From 08.08.16 to 25.08.16",
+      "From 30.05.16 to 02.06.16",
+      "From 30.06.16 to 02.07.16"
+    ],
+    "work_time": [
+      "time of work was about 12 hours",
+      "time of work was about 18 hours",
+      "time of work was about 23 hours",
+      "time of work was about 18 hours",
+      "time of work was about 11 hours"
+    ]
+  },
+  "used_tech": "Used technologies",
+  "time_work": "Time of developing",
+  "to_site": "Go to site"
+}

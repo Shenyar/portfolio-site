@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru" ng-app="kitchen">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kitchenwall</title>
+
+    <!-- Bootstrap -->
+    <link href="lib/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/font-awesome.min.css" rel="stylesheet">
+    <link href="index-style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body ng-controller="kitchenCtrl">
+<div class="wrapper">
+    <!-- HEADER -->
+    <div class="hdr">
+        <div class="container">
+            <a href="#/" class="fix-link">
+                <div class="logo">K<small><span class="small glyphicon glyphicon-pushpin"></span></small>tchenwall</div>
+            </a>
+            <div class="pull-right">
+                <div class="hdr-menu visible-xs btn" id="mobileDropdown">Menu <span class="caret"></span></div>
+                <ul class="hdr-menu hidden-xs list-inline" id="mobileDroplist">
+                    <li class="btn hdr-menu-selected">Home</li>
+                    <li class="btn">Portfolio</li>
+                    <li class="btn">Journal</li>
+                    <li class="btn">Social</li>
+                    <li class="btn">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div ng-view></div>
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="container">
+            <div class="pull-left">&copy; 2016 Kitchenwall theme</div>
+            <div class="pull-right">
+                <a target="_blank" href="http://facebook.com"><i class="fa fa-facebook"></i></a>
+                <a target="_blank" href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a>
+                <a target="_blank" href="http://vk.com"><i class="fa fa-vk"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="lib/jquery-2.2.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="lib/bootstrap.min.js"></script>
+<script src="lib/angular.min.js"></script>
+<script src="lib/angular-route.min.js"></script>
+<script src="lib/angular-sanitize.min.js"></script>
+<script src="view-mainList/mainList.tpl.js"></script>
+<script src="view-mainPost/mainPost.tpl.js"></script>
+<script src="index-script.js"></script>
+</body>
+</html>

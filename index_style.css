@@ -1,0 +1,294 @@
+/*----------------------- GENERAL ---------------------------*/
+@font-face {
+    font-family: "FontAwesome";
+    src: url('fonts/fontawesome-webfont.ttf');
+}
+
+body,html {
+    background-color: #404040;
+    color: #FFFFFF;
+    height: 100%;
+    font-size: 10px;
+    text-align: center;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2.5em;
+}
+h4 {
+    font-size: 1.8em;
+}
+
+.wrapper {
+    min-height: 100%;
+    padding-bottom: 70px;
+    position: relative;
+}
+
+.vert-align {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.link,
+.link:hover,
+.link:active,
+.link:visited {
+    cursor: pointer;
+    text-decoration: inherit;
+    color: inherit;
+}
+.link:hover {
+    opacity: 0.8;
+}
+.link:active {
+    opacity: 0.5;
+}
+
+
+/*----------------------- HEADER ---------------------------*/
+.header {
+    position: relative;
+    z-index: 1000;
+}
+.logo {
+    font-size: 5em;
+}
+.logo-min {
+    font-size: 3.6em;
+    margin-top: -0.6em;
+    color: #B0A040;
+}
+.hdr-height {
+    height: 100px;
+}
+.hdr-activated,
+.hdr-activated:hover,
+.hdr-activated:active {
+    color: #B0A040;
+    text-decoration: none;
+    cursor: default;
+}
+.hdr-menu-item {
+    width: 120px;
+    background-color: #303030;
+    font-size: 1.7em;
+}
+.js-menu-visible {
+    width: 120px;
+    position: absolute;
+    top: 100px;
+    right: -15px;
+}
+
+
+/*----------------------- RESUME ----------------------------*/
+.resume {
+    margin: 20px 0;
+}
+.resume-bold {
+    font-weight: bold;
+}
+.resume-lined {
+    text-decoration: underline;
+}
+#accordion {
+    text-align: left;
+}
+#accordion h3 {
+    font-size: 2em;
+    background-color: #303030;
+    border: solid 1px #202020;
+}
+#accordion h3:focus {
+    outline: none;
+}
+#accordion a {
+    color: #B0A040;
+}
+#accordion div {
+    font-size: 1.8em;
+    color: #FFFFFF;
+    background-color: #606060;
+    border: solid 1px #202020;
+}
+
+
+/*----------------------- PORTFOLIO ---------------------------*/
+.main {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 115px 0 70px 0;
+}
+.main-height {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.main-min-height {
+    visibility: hidden;
+    padding: 30px 0;
+}
+
+.my-carousel {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.for-carousel-height {
+    visibility: hidden;
+    padding: 15px 0;
+}
+.my-carousel-item {
+    max-width: 80%;
+    padding: 15px;
+    background-color: white;
+    border: solid 1px #404040;
+    overflow: hidden;
+    transition: all 1s ease;
+}
+.my-carousel-hide {
+    width: 56%;
+    position: absolute;
+    top: 15%;
+    left: 22%;
+    z-index: 100;
+}
+.my-carousel-left {
+    width: 64%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    z-index: 200;
+}
+.my-carousel-active {
+    width: 80%;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    z-index: 400;
+}
+.my-carousel-right {
+    width: 64%;
+    position: absolute;
+    top: 10%;
+    left: 36%;
+    z-index: 200;
+}
+.my-carousel-left:hover,
+.my-carousel-right:hover {
+    background-color: #BBBBBB;
+    cursor: pointer;
+}
+
+.my-carousel-item .description {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    bottom: 15px;
+    right: 15px;
+    transition: all 0.5s ease;
+    background-color: #404040;
+    opacity: 0;
+    padding: 15px;
+    text-align: left;
+    overflow: auto;
+}
+.my-carousel-item .description:hover {
+    opacity: 0.8;
+}
+
+
+/*----------------------- CONTACTS --------------------------*/
+.contact-margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.relative {
+    position: relative;
+}
+
+.avatar-border {
+    /*background: url("img/hex-avatar.png") center no-repeat;
+    background-size: 100% 100%;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.contact-header {
+    font-size: 3em;
+    color: #B0A040;
+    margin: 20px 0;
+}
+.contact-name {
+    text-align: right;
+    font-size: 2em;
+    color: #B0A040;
+}
+.contact-text {
+    text-align: left;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+
+/*----------------------- FOOTER ---------------------------*/
+.footer {
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 1.5em;
+}
+.footer-center {
+    line-height: 40px;
+}
+.hex {
+    width: 46px;
+    height: 40px;
+}
+.hex-bg {
+    background: url("img/border-hex.png");
+}
+.hex-hover:hover {
+    background: url("img/hex-hover.png");
+}
+
+
+/*---------------- SMALL DISPLAYS ---------------------*/
+@media (max-width: 640px) {
+    h2 {
+        font-size: 2.2em;
+    }
+    h3 {
+        font-size: 1.8em;
+    }
+    h4 {
+        font-size: 1.4em;
+    }
+
+    .logo {
+        font-size: 4.4em;
+    }
+    .logo-min {
+        font-size: 3.3em;
+    }
+
+    .main {
+        padding: 115px 0 110px 0;
+    }
+    .wrapper {
+        padding-bottom: 110px;
+    }
+
+    .footer-center {
+        clear: both;
+    }
+}

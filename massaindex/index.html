@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор ИМТ</title>
+    <link rel="stylesheet" href="index_stylesheet.css">
+    <script src="index_script.js"></script>
+</head>
+<body>
+    <!-- INPUT BLOCK -->
+    <div class="input-box" id="show-in">
+        <div class="center">
+            <h1>Рассчитайте ваш<br>Индекс Массы Тела</h1>
+        </div>
+        <table>
+            <tr>
+                <td>Ваш рост (см):</td>
+                <td><input type="text" id="in_height"></td>
+            </tr>
+            <tr>
+                <td>Ваш вес (кг): </td>
+                <td><input type="text" id="in_mass"></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="center"><input type="button" id="btn_calc" value="Рассчитать ИМТ"></td>
+            </tr>
+        </table>
+    </div>
+    <!-- OUTPUT BLOCK -->
+    <div class="output-box" id="show-out">
+        <div id="result" class="center">Результат: воттакой</div>
+        <table class="table-norm">
+            <thead><tr>
+                <th>Индекс массы тела</th>
+                <th>Классификация</th>
+            </tr></thead>
+            <tbody>
+            <tr id="t1">
+                <td>меньше 18,5</td>
+                <td>Недостаточная масса</td>
+            </tr>
+            <tr id="t2">
+                <td>18,5 - 24,9</td>
+                <td>Норма</td>
+            </tr>
+            <tr id="t3">
+                <td>25,0 - 29,9</td>
+                <td>Избыточная масса</td>
+            </tr>
+            <tr id="t4">
+                <td>30,0 - 34,9</td>
+                <td>Ожирение I степени</td>
+            </tr>
+            <tr id="t5">
+                <td>35,0 - 39,9</td>
+                <td>Ожирение II степени</td>
+            </tr>
+            <tr id="t6">
+                <td>больше 40,0</td>
+                <td>Ожирение III степени</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

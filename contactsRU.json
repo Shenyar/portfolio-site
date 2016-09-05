@@ -1,0 +1,19 @@
+{
+  "main_header": "КОНТАКТНЫЕ ДАННЫЕ",
+  "header": {
+    "address": "Адрес",
+    "phone": "Телефон",
+    "email": "Эл. адрес",
+    "facebook": "Facebook",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "text": {
+    "address": "Запорожье, ул. Николая - Краснова 4.",
+    "phone": "+38(096)421-60-81",
+    "email": "Shenyar2501@gmail.com",
+    "facebook": "Курмель А. в Facebook",
+    "linkedin": "Курмель А. в LinkedIn",
+    "github": "Курмель А. в GitHub"
+  }
+}

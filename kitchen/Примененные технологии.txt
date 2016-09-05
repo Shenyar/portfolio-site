@@ -1,0 +1,5 @@
+AngularJS (SPA)
+JavaScript (jQuery, jQuery-UI)
+HTML + CSS (Bootstrap)
+PHP
+MySQL

@@ -1,0 +1,115 @@
+/*---------------------------------------- GENERAL ----------------------------------------*/
+@font-face {
+    font-family: "Cabin";
+    src: url('fonts/Cabin-Medium.ttf');
+}
+@font-face {
+    font-family: "FontAwesome";
+    src: url('fonts/fontawesome-webfont.ttf');
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 990px;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-size: 10px;
+    font-family: "Cabin", Arial, Helvetica, sans-serif;
+    color: #898989;
+    background: url("img/home.jpg") repeat;
+}
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 50px;
+}
+.fix-link {
+    color: inherit;
+}
+
+/*---------------------------------------- HEADER ----------------------------------------*/
+.hdr {
+    background-color: #FFF;
+    line-height: 50px;
+    border-bottom: solid 1px #CCC;
+}
+.logo {
+    font-size: 2.2em;
+    float: left;
+}
+.hdr-menu {
+    font-size: 1.4em;
+    margin: 0;
+}
+.hdr-menu-selected {
+    color: #7DAE59;
+}
+#mobileDropdown {
+    padding: 15px;
+}
+.dropMenu {
+    position: absolute;
+    background-color: #FFF;
+    border: solid 1px #CCC;
+    border-radius: 5px;
+    z-index: 100;
+}
+
+
+/*---------------------------------------- FOOTER ----------------------------------------*/
+.footer {
+    background-color: #FFF;
+    line-height: 50px;
+    font-size: 1.2em;
+    border-top: solid 1px #CCC;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.fa {
+    color: #FFF;
+    text-align: center;
+    margin-left: 3px;
+    padding: 5px 0;
+    width: 22px;
+}
+.fa-facebook {
+    background-color: #000088;
+}
+.fa-facebook:hover {
+    background-color: #FFF;
+    color: #000088;
+    border: solid 1px #000088;
+}
+.fa-vk {
+    background-color: #1171a3;
+}
+.fa-vk:hover {
+    background-color: #FFF;
+    color: #1171a3;
+    border: solid 1px #1171a3;
+}
+.fa-twitter {
+    background-color: #007fff;
+}
+.fa-twitter:hover {
+    background-color: #FFF;
+    color: #007fff;
+    border: solid 1px #007fff;
+}
+.fa-google-plus {
+    background-color: #dd1144;
+}
+.fa-google-plus:hover {
+    background-color: #FFF;
+    color: #dd1144;
+    border: solid 1px #dd1144;
+}
