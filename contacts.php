@@ -40,10 +40,10 @@ $page_content = json_decode( file_get_contents("contacts$lang.json") );
         </div>
         <div class="row">
             <div class="col-xs-5 contact-name">
-                <?php echo $page_content->header->facebook; ?> <i class="fa fa-facebook"></i>:
+                <?php echo $page_content->header->vk; ?> <i class="fa fa-vk"></i>:
             </div>
             <div class="col-xs-offset-1 col-xs-6 contact-text">
-                <a href="http://facebook.com"><?php echo $page_content->text->facebook; ?></a>
+                <a href="http://vkontakte.ru/id22702354?49626"><?php echo $page_content->text->vk; ?></a>
             </div>
         </div>
         <div class="row">
@@ -51,7 +51,7 @@ $page_content = json_decode( file_get_contents("contacts$lang.json") );
                 <?php echo $page_content->header->linkedin; ?> <i class="fa fa-linkedin"></i>:
             </div>
             <div class="col-xs-offset-1 col-xs-6 contact-text">
-                <a href="http://linkedin.com"><?php echo $page_content->text->linkedin; ?></a>
+                <a href="https://ua.linkedin.com/in/andrey-kurmel-9a83b5112"><?php echo $page_content->text->linkedin; ?></a>
             </div>
         </div>
         <div class="row">
@@ -59,7 +59,7 @@ $page_content = json_decode( file_get_contents("contacts$lang.json") );
                 <?php echo $page_content->header->github; ?> <i class="fa fa-github"></i>:
             </div>
             <div class="col-xs-offset-1 col-xs-6 contact-text">
-                <a href="http://github.com"><?php echo $page_content->text->github; ?></a>
+                <a href="https://github.com/Shenyar"><?php echo $page_content->text->github; ?></a>
             </div>
         </div>
     </div>

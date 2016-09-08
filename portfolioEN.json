@@ -1,11 +1,11 @@
 {
   "description": {
     "text": [
-      "One of my first applications allows you to calculate body mass index.",
-      "Example API Instagram used to create a collage based on your photos.",
-      "An example of the working culinary blog with the possibility of dividing posts in categories and page navigation.",
+      "One of my first applications allows you to calculate body mass index (BMI).",
+      "Example of using API Instagram for creating a collage based on your photos.",
+      "An example of the working culinary blog with the possibility of dividing posts by categories and page navigation.",
       "Working online store, you can even make an order. But an order does not arrive, as reported by a pop-up notification.",
-      "Just creatied web site for a contest with responsive design without the use of additional libraries."
+      "Just created web site for a competition with responsive design without using of additional libraries."
     ],
     "work_date": [
       "From 11.05.16 to 12.05.16",

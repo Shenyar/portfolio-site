@@ -162,17 +162,17 @@ if($lang == "RU") {
                     ?>
                 </div>
                 <div class="pull-right">
-                    <a href="http://facebook.com" class="link">
+                    <a href="http://vkontakte.ru/id22702354?49626" class="link">
                         <div class="vert-align hex hex-bg hex-hover">
-                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-vk"></i>
                         </div>
                     </a>
-                    <a href="http://linkedin.com" class="link">
+                    <a href="https://ua.linkedin.com/in/andrey-kurmel-9a83b5112" class="link">
                         <div class="vert-align hex hex-bg hex-hover">
                             <i class="fa fa-linkedin"></i>
                         </div>
                     </a>
-                    <a href="http://github.com" class="link">
+                    <a href="https://github.com/Shenyar" class="link">
                         <div class="vert-align hex hex-bg hex-hover">
                             <i class="fa fa-github"></i>
                         </div>

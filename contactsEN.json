@@ -4,7 +4,7 @@
     "address": "Address",
     "phone": "Phone",
     "email": "Email",
-    "facebook": "Facebook",
+    "vk": "Vkontakte",
     "linkedin": "LinkedIn",
     "github": "GitHub"
   },
@@ -12,7 +12,7 @@
     "address": "Zaporozhye, st. Nikolaya - Krasnova 4.",
     "phone": "+38(096)421-60-81",
     "email": "Shenyar2501@gmail.com",
-    "facebook": "Kurmel A. In Facebook",
+    "vk": "Kurmel A. In VK",
     "linkedin": "Kurmel A. In LinkedIn",
     "github": "Kurmel A. In GitHub"
   }
