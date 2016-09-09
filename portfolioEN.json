@@ -3,7 +3,7 @@
     "text": [
       "One of my first applications allows you to calculate body mass index (BMI).",
       "Example of using API Instagram for creating a collage based on your photos.<h4>(Because application is in the Instagram 'sandbox', please use the test user. Login : kurmel_test; Pass : test_kurmel)</h4>",
-      "An example of the working culinary blog with the possibility of dividing posts by categories and page navigation.<h4><br>Because application is in the Instagram 'sandbox', please login as test user. Login : kurmel_test; Pass : test_kurmel</h4>",
+      "An example of the working culinary blog with the possibility of dividing posts by categories and page navigation.",
       "Working online store, you can even make an order. But an order does not arrive, as reported by a pop-up notification.",
       "Just created web site for a competition with responsive design without using of additional libraries."
     ],
