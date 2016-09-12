@@ -34,7 +34,7 @@ window.onload = function() {
         //when new string - it can begin from wide image
         for(var j=0; j<col; j++) {
             if(can_wide && wide_img) { //wide image
-                context.drawImage(images[counter], 0, 140, 640, 340, j*316+10, i*316+10, 622, 306);
+                context.drawImage(images[counter], 0, 140, 640, 320, j*316+10, i*316+10, 622, 306);
                 counter++;
                 j++;
                 can_wide = 0;
