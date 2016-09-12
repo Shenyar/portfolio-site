@@ -221,7 +221,7 @@ _END;
         }
         $_SESSION['kol_img'] = intval($kol_img);
         for($i = 0; $i < $kol_img; $i++) {
-            echo "<img src=\"$images[$i]\" class=\"hide\" width='640px' height='640px'>";
+            echo "<img src=\"$images[$i]\" class=\"hide\">";
         }
 
         echo <<<_END
