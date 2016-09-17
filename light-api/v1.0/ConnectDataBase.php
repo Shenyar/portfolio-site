@@ -8,8 +8,8 @@
 
 class ConnectDataBase {
     protected $host = 'localhost';
-    protected $login = 'root'; /*u670633594_ushow*/
-    protected $pass = ''; /*archmage2501*/
+    protected $login = 'u670633594_ushow'; /**/
+    protected $pass = 'archmage2501'; /**/
     protected $database = 'u670633594_show';
 
     protected $connection;
